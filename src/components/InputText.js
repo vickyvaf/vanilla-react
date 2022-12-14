@@ -1,10 +1,10 @@
-const InputText = (input, setInput) => {
+const InputText = (props) => {
   const inputText = document.createElement("input");
-  inputText.id = "input"
-  inputText.placeholder = "Type..."
-  inputText.value = input;
+  inputText.id = "input";
+  inputText.placeholder = "Type...";
+  inputText.value = props.input;
   inputText.oninput = (event) => {
-    setInput(event.target.value);
+    props.setInput(event.target.value);
   };
 
   return inputText;

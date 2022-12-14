@@ -6,8 +6,8 @@ const App = () => {
   const [input, setInput] = React.useState("");
 
   const div = document.createElement("div");
-  div.append(TextPreview(input));
-  div.append(InputText(input, setInput));
+  div.append(TextPreview({ input }));
+  div.append(InputText({ input, setInput }));
   div.style.textAlign = "center";
   return div;
 };
