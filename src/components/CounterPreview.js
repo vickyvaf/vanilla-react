@@ -1,6 +1,6 @@
-const CounterPreview = (counter) => {
+const CounterPreview = (props) => {
   const counterPreview = document.createElement("p");
-  counterPreview.textContent = counter;
+  counterPreview.textContent = props.counter;
 
   return counterPreview;
 };
