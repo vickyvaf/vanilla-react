@@ -13,7 +13,7 @@ const SearchInput = (props) => {
   const searchButton = document.createElement("button");
   searchButton.textContent = "Search";
   searchButton.onclick = () => {
-    props.dispatch({ type: "SEARCH" });
+    props.dispatch({ type: "FETCH" });
   };
 
   const div = document.createElement("div");

@@ -39,12 +39,6 @@ function reducer(prevState, action) {
         searchInputValue: action.payload.searchInputValue,
       };
     }
-    case "SEARCH": {
-      return {
-        ...prevState,
-        isLoading: true,
-      };
-    }
     default: {
       return prevState;
     }
