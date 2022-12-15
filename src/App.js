@@ -36,15 +36,6 @@ const App = () => {
       );
   }, [state.tag]);
 
-  const listWrapper = document.createElement("div");
-
-  state.products.map((product, i) => {
-    const list = document.createElement("p");
-    list.textContent = product.title;
-
-    listWrapper.append(list);
-  });
-
   const div = document.createElement("div");
   div.append(SearchInput({ dispatch, state }));
   if (state.tag === "loading") {
