@@ -1,0 +1,76 @@
+{
+  "datas": [
+    {
+      "id": 1,
+      "nomor": 1,
+      "soal": "Bakso terbuat dari apa hayooo?",
+      "pilihanJawaban": [
+        {
+          "pilihan": "a",
+          "deskripsi": "Daun"
+        },
+        {
+          "pilihan": "b",
+          "deskripsi": "Daging"
+        },
+        {
+          "pilihan": "c",
+          "deskripsi": "Cangkul"
+        },
+        {
+          "pilihan": "d",
+          "deskripsi": "Bensin"
+        }
+      ],
+      "jawabanBenar": "b"
+    },
+    {
+      "id": 2,
+      "nomor": 2,
+      "soal": "ada dua warna bendera Indonesia, yaitu?",
+      "pilihanJawaban": [
+        {
+          "pilihan": "a",
+          "deskripsi": "Merah Putih"
+        },
+        {
+          "pilihan": "b",
+          "deskripsi": "Putih Pink"
+        },
+        {
+          "pilihan": "c",
+          "deskripsi": "Ungu"
+        },
+        {
+          "pilihan": "d",
+          "deskripsi": "Merah Merah"
+        }
+      ],
+      "jawabanBenar": "a"
+    },
+    {
+      "id": 3,
+      "nomor": 3,
+      "soal": "1 + 1 = ?",
+      "pilihanJawaban": [
+        {
+          "pilihan": "a",
+          "deskripsi": "Belanda"
+        },
+        {
+          "pilihan": "b",
+          "deskripsi": "Indonesia"
+        },
+        {
+          "pilihan": "c",
+          "deskripsi": "Dua"
+        },
+        {
+          "pilihan": "d",
+          "deskripsi": "Listrik"
+        }
+      ],
+      "jawabanBenar": "c"
+    }
+  ]
+}
