@@ -4,7 +4,6 @@ const Link = (props) => {
   a.textContent = props.label;
   a.onclick = function (event) {
     event.preventDefault();
-    props.pushState();
     props.onClick();
   };
   return a;
