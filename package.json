@@ -5,8 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build:ts": "tsc",
-    "build:server": "yarn run build:ts && webpack --config webpack.config.server.js",
-    "build:client": "webpack --config webpack.config.client.js"
+    "build:client": "webpack --config webpack.config.client.js",
+    "build:server": "webpack --config webpack.config.server.js",
+    "build": "yarn run build:ts && yarn run build:client && yarn run build:server",
+    "start": "yarn run build && node dist/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
